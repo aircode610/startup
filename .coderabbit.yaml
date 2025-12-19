@@ -1,0 +1,13 @@
+reviews:
+  auto_review: true
+  instructions: |
+    You are reviewing a small Python backend repo.
+    - Prefer pytest for tests.
+    - Put tests under tests/ as test_*.py.
+    - When asked to generate unit tests, focus on changed logic and edge cases.
+    - For auth: include malformed Authorization header cases and None/empty token cases.
+    - Do not log tokens or suggest logging tokens.
+
+  # Optional: reduce noisy suggestions in a demo
+  # high_level_summary: true
+
