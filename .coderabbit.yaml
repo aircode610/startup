@@ -1,5 +1,6 @@
 reviews:
-  auto_review: true
+  auto_review:
+    enabled: true
   instructions: |
     You are reviewing a small Python backend repo.
     - Prefer pytest for tests.
