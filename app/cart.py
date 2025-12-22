@@ -36,7 +36,7 @@ def checkout(
         )
 
     subtotal = compute_subtotal(items)
-    total = apply_discount(subtotal, user_tier)
+    total = apply_discount(subtotal, "premium")
 
     return CheckoutResult(
         authorized=True,
