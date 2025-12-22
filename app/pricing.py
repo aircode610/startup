@@ -11,7 +11,7 @@ def apply_discount(subtotal: float, user_tier: str) -> float:
         raise ValueError("subtotal must be non-negative")
 
     if user_tier == "premium":
-        return round(subtotal * 0.90, 2)
+        return int(subtotal * 0.90)
 
     return round(subtotal, 2)
 
