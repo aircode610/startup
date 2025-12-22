@@ -33,7 +33,5 @@ def validate_token(token: str | None) -> bool:
     - Valid tokens start with "user_"
     - Empty/malformed tokens are invalid
     """
-    if not token:
-        return False
     return token.startswith("user_")
 
